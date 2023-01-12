@@ -1,0 +1,133 @@
+@import url('https://fonts.google.com/specimen/Inter');
+
+body{
+    font-family: inter;
+    font-size:15px;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    height:100vh;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+   
+}
+
+.logo{
+    margin-top: -9px;  
+}
+
+.navLinks{
+    display:inline-flex;
+    justify-content: space-around;
+    margin-top:1%;   
+}
+
+
+
+.container{
+    margin:6%;
+    min-height:100vh;
+}
+
+
+
+.content{
+    display:grid;
+    gap:30px;
+    height:60vh; 
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "section1 section1 section2"
+    "section3 section4 section2"
+    "section5 section6 section7"
+    ;
+}
+
+.section1>img{
+    width:100%;
+  
+}
+
+
+.section1{
+    grid-area: section1;
+   
+}
+
+.section2{
+    grid-area:section2;
+    background-color:black;
+    color:white;
+    padding: 10px;
+    height:90%;
+   
+}
+.title1{
+    color:hsl(35, 77%, 62%)
+}
+.title2{
+    padding-top:5%
+}
+
+.section3{
+    grid-area: section3;
+    font-size:xx-large;
+    font-weight:800;
+   
+}
+
+.section4{
+    grid-area: section4;
+  
+}
+
+button{
+    background-color:rgb(96, 224, 96);
+    color:white;
+    border:none;
+    padding:3%;
+    width:30%;
+}
+.section5{
+    grid-area:section5;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.section6{
+    grid-area:section6;
+    display: flex;
+    justify-content: space-between;
+}
+.section7{
+    grid-area:section7;
+    display: flex;
+    justify-content: space-between;
+}
+.sectionImage>img{
+    width:100px;
+    /* height:px; */
+}
+.textImage{
+    display:flex;
+    justify-content:center;
+}
+.footerImage>img{
+    width:100px;
+    height:107px;
+}
+
+.sectionText{
+    margin-top: -6%;
+    padding-left:2%;
+}
+
+.title3{
+    color:hsl(233, 8%, 79%)
+}
