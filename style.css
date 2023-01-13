@@ -22,10 +22,22 @@ body{
 }
 
 .navLinks{
-    display:inline-flex;
-    justify-content: space-around;
+    display:flex;
+    justify-content:center;
     margin-top:2%;  
+    margin-right:10%;
     
+    
+}
+
+.link1{
+    padding-left:15%;
+   
+}
+
+a{
+    text-decoration: none;
+    color:hsl(233, 8%, 79%)
 }
 
 .navLinks>.link1{
